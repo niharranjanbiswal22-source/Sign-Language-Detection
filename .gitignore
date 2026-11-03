@@ -1,0 +1,30 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Databases & Runtime State
+app_data.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

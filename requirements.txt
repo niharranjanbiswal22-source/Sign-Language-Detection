@@ -1,0 +1,16 @@
+# Core Deep Learning & Computer Vision
+opencv-python>=4.8.0
+mediapipe>=0.10.9
+cvzone>=1.5.6
+numpy>=1.24.0,<2.0.0
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Web Application Framework & Auth
+Flask>=3.0.0
+Werkzeug>=3.0.0
+
+# Natural Language & Audio Processing
+pyenchant>=3.2.2
+pyttsx3>=2.90
+Pillow>=10.0.0
