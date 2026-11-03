@@ -182,8 +182,7 @@ Detailed academic research documentation is included in the [`docs/`](docs/) dir
 
 ## 👨‍💻 Developer & Author Credits
 
-- **Deepak Sethi** — *Lead Algorithm Architect & Full-Stack Developer*
-- **Nihar Ranjan Biswal** — *Machine Learning Contributor & Project Maintainer* ([@niharranjanbiswal22-source](https://github.com/niharranjanbiswal22-source))
+- **Nihar Ranjan Biswal** — *Lead Developer & Machine Learning Engineer* ([@niharranjanbiswal22-source](https://github.com/niharranjanbiswal22-source))
 
 ---
 

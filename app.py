@@ -577,7 +577,7 @@ LOGIN_HTML = """
         <p class="text-secondary small mb-3">Don't have an account? <a href="/register" class="text-info text-decoration-none fw-semibold">Create Account</a></p>
         
         <div class="pt-3 border-top border-secondary border-opacity-25 text-center">
-            <span class="dev-badge small"><i class="bi bi-code-slash me-1"></i>Developed by DEEPAK SETHI</span>
+            <span class="dev-badge small"><i class="bi bi-code-slash me-1"></i>Developed by Nihar Ranjan Biswal</span>
         </div>
     </div>
 
@@ -691,7 +691,7 @@ REGISTER_HTML = """
         <p class="text-secondary small mb-3">Already registered? <a href="/login" class="text-info text-decoration-none fw-semibold">Sign In</a></p>
 
         <div class="pt-3 border-top border-secondary border-opacity-25 text-center">
-            <span class="dev-badge small"><i class="bi bi-code-slash me-1"></i>Developed by DEEPAK SETHI</span>
+            <span class="dev-badge small"><i class="bi bi-code-slash me-1"></i>Developed by Nihar Ranjan Biswal</span>
         </div>
     </div>
 </body>
@@ -955,7 +955,7 @@ DASHBOARD_HTML = """
                     </div>
 
                     <div class="mt-3 pt-3 border-top border-secondary border-opacity-25 text-center">
-                        <span class="dev-footer small"><i class="bi bi-code-slash me-1"></i>Developed by DEEPAK SETHI</span>
+                        <span class="dev-footer small"><i class="bi bi-code-slash me-1"></i>Developed by Nihar Ranjan Biswal</span>
                     </div>
                 </div>
             </div>
@@ -1385,7 +1385,7 @@ def export_history():
     rows = cursor.fetchall()
     conn.close()
 
-    content = f"--- Sign AI Pro Translation History for {session.get('username')} ---\nDeveloped by DEEPAK SETHI\n\n"
+    content = f"--- Sign AI Pro Translation History for {session.get('username')} ---\nDeveloped by Nihar Ranjan Biswal\n\n"
     for r in rows:
         content += f"[{r[1]}] {r[0]}\n"
 
@@ -1395,5 +1395,5 @@ def export_history():
     return send_file(buffer, as_attachment=True, download_name=f"asl_history_{session.get('username')}.txt", mimetype='text/plain')
 
 if __name__ == '__main__':
-    print("Starting Sign AI Pro (Developed by DEEPAK SETHI) on http://localhost:5000")
+    print("Starting Sign AI Pro (Developed by Nihar Ranjan Biswal) on http://localhost:5000")
     app.run(host='0.0.0.0', port=5000, debug=False)
